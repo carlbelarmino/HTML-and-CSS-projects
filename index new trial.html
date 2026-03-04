@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"?
+		<title?CN Home Renovation</title>
+		</head>
+		<link rel="stylesheet" type="text/css" href="index trial.css">
+
+		<body>
+		
+			<!-- NAV -->
+			<div>
+				<div>
+					<ul>
+						<a href="#home" id="link"><li>HOME</li></a>
+						<a href="#gallery"><li>GALLERY</li></a>
+						<a href="#reservations"><li>RESERVATIONS</li></a>
+						<script src="index trial.js"></script>
+					</ul>
+				</div>
+			</div>
+			<!--END NAV -->
+			
+			<!--HOME -->
+			<div id="home">
+				<div>
+					<span>CN Home Renovation</span>
+					<h1>Home</h1>
+					<h2>A house is made of walls and beams;a home is built with love and dreams.</h2>
+					
+					<a href="https://youtube.com/shorts/8y0jdSIKsoA?si=pBsw-hym1j1QL-DD">welcome video</a>
+				</div>
+			</div>
+		</div>
+		<!--END HOME -->
+		
+			<!-- Gallery -->
+			<section>
+				<div id="gallery">
+					<h1>Gallery</h1>
+					<div>
+					
+						<!-- PHOTO-CONTAINER 1 -->
+						<div>
+							<div>
+								<img src="./images/thumb/thumbnail 1.jpg" alt="">
+								<div>
+									<h3>Click to Enlarge</h3>
+									<p>we have professional contractors
+								</div>
+							</div>
+						</div>
+						<!-- END PHOTO-CONTAINER 1 -->
+						
+						<!-- PHOTO-CONTAINER 2 -->
+						<div>
+							<div>
+								<img src="./images/thumb/thumbnail 2.jpg" alt="">
+								<div>
+									<h3>Click to Enlarge</h3>
+									<p>different home designs
+								</div>
+							</div>
+						</div>
+						<!-- END PHOTO-CONTAINER 2 -->
+						
+						<!-- PHOTO-CONTAINER 3 -->
+						<div>
+							<div>
+								<img src="./images/thumb/thumbnail 3.jpg" alt="">
+								<div>
+									<h3>Click to Enlarge</h3>
+									<p>unique designs
+								</div>
+							</div>
+						</div>
+						<!-- END PHOTO-CONTAINER 3 -->
+						
+						<!-- PHOTO-CONTAINER 4 -->
+						<div>
+							<div>
+								<img src="./images/thumb/thumbnail 4.jpg" alt="">
+								<div>
+									<h3>Click to Enlarge</h3>
+									<p>modern designs
+								</div>
+							</div>
+						</div>
+						<!-- END PHOTO-CONTAINER 4 -->
+						
+						<!-- PHOTO-CONTAINER 5 -->
+						<div>
+							<div>
+								<img src="./images/thumb/thumbnail 5.jpg" alt="">
+								<div>
+									<h3>Click to Enlarge</h3>
+									<p>kitchen designs
+								</div>
+							</div>
+						</div>
+						<!-- END PHOTO-CONTAINER 5 -->
+						
+						<!-- PHOTO-CONTAINER 6 -->
+						<div>
+							<div>
+								<img src="./images/thumb/thumbnail 6.jpg" alt="">
+								<div>
+									<h3>Click to Enlarge</h3>
+									<p>home renovations
+								</div>
+							</div>
+						</div>
+						<!-- END PHOTO-CONTAINER 6 -->
+						
+						<!-- PHOTO-CONTAINER 7 -->
+						<div>
+							<div>
+								<img src="./images/thumb/thumbnail 7.jpg" alt="">
+								<div>
+									<h3>Click to Enlarge</h3>
+									<p>home renovations free estimate
+								</div>
+							</div>
+						</div>
+						<!-- END PHOTO-CONTAINER 7 -->
+						
+						<!-- PHOTO-CONTAINER 8 -->
+						<div>
+							<div>
+								<img src="./images/thumb/thumbnail 8.jpg" alt="">
+								<div>
+									<h3>Click to Enlarge</h3>
+									<p>newly design
+								</div>
+							</div>
+						</div>
+						<!-- END PHOTO-CONTAINER 8 -->
+						
+						<!-- PHOTO-CONTAINER 9 -->
+						<div>
+							<div>
+								<img src="./images/thumb/thumbnail 9.jpg" alt="">
+								<div>
+									<h3>Click to Enlarge</h3>
+									<p>cozy design
+								</div>
+							</div>
+						</div>
+						<!-- END PHOTO-CONTAINER 9 -->
+						<!-- Images used to open the lightbox -->
+<div class="row">
+  <div class="column">
+    <img src="images/images/plant1-small.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="images/images/plant2-small.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="images/images/plant3-small.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="images/images/plant4-small.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="images/images/plant1.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="images/images/plant2.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="images/images/plant3.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="images/images/plant4.png" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="images/images/plant1-small.png" onclick="currentSlide(1)" alt="Nature">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/images/plant2-small.png" onclick="currentSlide(2)" alt="Snow">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/images/plant3.png" onclick="currentSlide(3)" alt="Mountains">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/images/plant4.png" onclick="currentSlide(4)" alt="Lights">
+    </div>
+  </div>
+</div>
+					</div>
+				</div>
+			</section>
+			 <!-- END GALLERY -->
+			 
+			 <!-- RSVP -->
+			 <section>
+				<div id="reservations">
+					<div>
+						<h1>Reservations</h1>
+						<div>
+							<h2><span>Book your appointment now.</span>
+								<br />Contact us today!
+							</h2>
+							<p>
+								Please provide us with your basic contact information.
+							</p>
+							<div>
+								<form action ="" method="post">
+									<input class="rsvp" type="text" value="First Name">
+									<input class="rsvp" type="text" value="Last Name">
+									<input class="rsvp" type="text" value="Email Address">
+									<input class="rsvp" type="text" value="Phone Number">
+									<div class="form-spacer">
+										<label class="terms">Terms and Conditions</label>
+									</div>
+									<div>
+										<input type="submit" value="Submit">
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!--END RSVP -->
+				
+				<!-- FOOTER -->
+				</div>
+					<em>www.homerenovation &nbsp; &copy; 2016 </em>
+					
+				<!-- END FOOTER -->
+				
+			</body>
+		</html>
+		
